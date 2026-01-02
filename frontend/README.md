@@ -1,0 +1,1 @@
+Frontend interface for the Student Course Registration & Result Management System.

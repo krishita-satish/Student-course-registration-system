@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="dashboard-header">
+        <h1>Student Dashboard</h1>
+        <p>Welcome, Student</p>
+    </header>
+
+    <div class="dashboard-grid">
+
+        <!-- STUDENT REGISTRATION -->
+        <section class="section-box" id="student">
+            <h2>Student Registration</h2>
+
+            <form class="card-form">
+                <label>Student ID</label>
+                <input type="text" placeholder="Enter Student ID">
+
+                <label>Full Name</label>
+                <input type="text" placeholder="Enter Full Name">
+
+                <label>Program</label>
+                <select>
+                    <option>B.Tech</option>
+                    <option>M.Tech</option>
+                    <option>MCA</option>
+                </select>
+
+                <label>Semester</label>
+                <input type="number">
+
+                <button type="button">Register</button>
+            </form>
+        </section>
+
+        <!-- COURSE ENROLLMENT -->
+        <section class="section-box" id="courses">
+            <h2>Course Enrollment</h2>
+
+            <div class="card-form">
+                <label><input type="checkbox"> Data Structures</label><br>
+                <label><input type="checkbox"> Operating Systems</label><br>
+                <label><input type="checkbox"> DBMS</label><br>
+                <label><input type="checkbox"> Computer Networks</label><br>
+
+                <button type="button">Enroll Selected Courses</button>
+            </div>
+        </section>
+
+        <!-- RESULT / TRANSCRIPT -->
+        <section class="section-box" id="result">
+            <h2>Result / Transcript</h2>
+
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td>Data Structures</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>A-</td>
+                </tr>
+                <tr>
+                    <td>DBMS</td>
+                    <td>B+</td>
+                </tr>
+            </table>
+
+            <p class="cgpa">CGPA: <strong>8.5</strong></p>
+        </section>
+
+    </div>
+
+    <footer class="footer">
+        <p>Student Course Registration System</p>
+    </footer>
+
+</body>
+</html>

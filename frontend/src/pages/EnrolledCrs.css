@@ -1,0 +1,46 @@
+.ec-container {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;;
+}
+.ec-container button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.ec-container h2 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.ec-container p {
+  text-align: center;
+  color: #777;
+  font-size: 16px;
+}
+
+.ec-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.ec-container li {
+  background: #ffffff;
+  margin-bottom: 12px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-size: 15px;
+  color: #333;
+}

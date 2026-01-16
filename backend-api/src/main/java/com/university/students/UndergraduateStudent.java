@@ -47,7 +47,6 @@ public class UndergraduateStudent extends Student {
         return totalGPA / countedSemesters;
     }
 
-
     @Override
     public String getProgramType() {
         return "Undergraduate";
